@@ -1,0 +1,7 @@
+# 文件格式: TYPE,ID,Name,Importance(0-3),PowerConsumption,EmergencyPowerOff(0/1),Location,[specific_params...]
+# SENSOR,ID,Name,Imp,PC,EPO,Location,temperature,humidity,co2Concentration
+# LIGHT,ID,Name,Imp,PC,EPO,Location,isOn(0/1),brightness
+# AC,ID,Name,Imp,PC,EPO,Location,mode(0-3),targetTemperature,fanSpeed(0-3)
+SENSOR,4,报警器,2,23,0,门口,23.3,33,0.996
+LIGHT,5,小灯,1,60,0,卧室,1,50
+AC,6,中央空调,3,45,0,厕所,2,27,3
